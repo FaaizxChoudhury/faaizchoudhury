@@ -14,25 +14,33 @@
       color: #fff !important ;
       line-height: 1.6;
     }
+    
     header {
-      text-align: center !important ;
-      padding: 30px 20px;
-    }
-    header img {
-      border-radius: 50%;
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      border: 3px solid #00aaff;
-    }
-    header h1 {
-      margin: 15px 0 5px;
-      font-size: 28px;
-    }
-    header p {
-      font-size: 18px;
-      color: #bbb;
-    }
+text-align: center;
+padding: 30px 20px;
+}
+    
+header img {
+border-radius: 50%;
+width: 180px; /* Fixed typo:
+widthi -> width */
+height: 180px;
+object-fit: cover;
+border: 3px solid #00eaff; /*
+Fixed typo: 30x 3px */
+display: block;
+margin: 0 auto; /* This will center the image */
+}
+    
+header h1 {
+margin: 15px 0 5px;
+font-size: 28px;
+}
+    
+header p {
+font-size: 18px;
+color: #bbb;
+}
     section {
       max-width: 900px;
       margin: 30px auto;
